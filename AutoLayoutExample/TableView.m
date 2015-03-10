@@ -15,6 +15,7 @@
 - (CGSize)intrinsicContentSize
 {
     [self layoutIfNeeded];
+    NSLog(@"%@", NSStringFromUIEdgeInsets(self.contentInset));
     return CGSizeMake(UIViewNoIntrinsicMetric,
                       self.contentSize.height + self.contentInset.top + self.contentInset.bottom);
 }

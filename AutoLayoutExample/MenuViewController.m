@@ -11,7 +11,6 @@
 /**
  *  参照:
  *  [iOS] Auto Layout を使いこなす。UITableViewCell と UIScrollView 編
- *  ※Priorityのところはちょっと間違ってる
  *  http://hamasyou.com/blog/2014/10/09/ios-autolayout-scrollview-tablecell/
  *
  *  What's New in Cocoa Touchをまとめた　〜Size Class大事〜

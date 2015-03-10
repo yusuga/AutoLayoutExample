@@ -16,6 +16,7 @@
 		B89882EC1AAE023A00E0B226 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B89882EB1AAE023A00E0B226 /* Images.xcassets */; };
 		B89882EF1AAE023A00E0B226 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B89882ED1AAE023A00E0B226 /* LaunchScreen.xib */; };
 		B89882FB1AAE023A00E0B226 /* AutoLayoutExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B89882FA1AAE023A00E0B226 /* AutoLayoutExampleTests.m */; };
+		B8C0122A1AAED02C00DBC176 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8C012291AAED02C00DBC176 /* NavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,8 @@
 		B89882F41AAE023A00E0B226 /* AutoLayoutExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoLayoutExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B89882F91AAE023A00E0B226 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B89882FA1AAE023A00E0B226 /* AutoLayoutExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutExampleTests.m; sourceTree = "<group>"; };
+		B8C012281AAED02C00DBC176 /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
+		B8C012291AAED02C00DBC176 /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +93,8 @@
 				B89882E21AAE023A00E0B226 /* AppDelegate.h */,
 				B89882E31AAE023A00E0B226 /* AppDelegate.m */,
 				B89882E81AAE023A00E0B226 /* Main.storyboard */,
+				B8C012281AAED02C00DBC176 /* NavigationController.h */,
+				B8C012291AAED02C00DBC176 /* NavigationController.m */,
 				B83319671AAE866F0003CADF /* MenuViewController.h */,
 				B83319681AAE866F0003CADF /* MenuViewController.m */,
 				B83319611AAE13010003CADF /* TableViewController.h */,
@@ -232,6 +237,7 @@
 				B89882E41AAE023A00E0B226 /* AppDelegate.m in Sources */,
 				B83319661AAE136F0003CADF /* TableView.m in Sources */,
 				B83319631AAE13010003CADF /* TableViewController.m in Sources */,
+				B8C0122A1AAED02C00DBC176 /* NavigationController.m in Sources */,
 				B89882E11AAE023A00E0B226 /* main.m in Sources */,
 				B83319691AAE866F0003CADF /* MenuViewController.m in Sources */,
 			);
