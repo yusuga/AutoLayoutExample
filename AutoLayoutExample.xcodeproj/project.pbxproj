@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B83319631AAE13010003CADF /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B83319621AAE13010003CADF /* TableViewController.m */; };
+		B83319631AAE13010003CADF /* ViewControllerInTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B83319621AAE13010003CADF /* ViewControllerInTableView.m */; };
 		B83319661AAE136F0003CADF /* TableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B83319651AAE136F0003CADF /* TableView.m */; };
 		B83319691AAE866F0003CADF /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B83319681AAE866F0003CADF /* MenuViewController.m */; };
 		B89882E11AAE023A00E0B226 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B89882E01AAE023A00E0B226 /* main.m */; };
@@ -17,6 +17,8 @@
 		B89882EF1AAE023A00E0B226 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B89882ED1AAE023A00E0B226 /* LaunchScreen.xib */; };
 		B89882FB1AAE023A00E0B226 /* AutoLayoutExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B89882FA1AAE023A00E0B226 /* AutoLayoutExampleTests.m */; };
 		B8C0122A1AAED02C00DBC176 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8C012291AAED02C00DBC176 /* NavigationController.m */; };
+		B8C0122D1AAED97F00DBC176 /* ContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8C0122C1AAED97F00DBC176 /* ContainerViewController.m */; };
+		B8C012301AAEDC4800DBC176 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8C0122F1AAEDC4800DBC176 /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,8 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B83319611AAE13010003CADF /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
-		B83319621AAE13010003CADF /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		B83319611AAE13010003CADF /* ViewControllerInTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerInTableView.h; sourceTree = "<group>"; };
+		B83319621AAE13010003CADF /* ViewControllerInTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerInTableView.m; sourceTree = "<group>"; };
 		B83319641AAE136F0003CADF /* TableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableView.h; sourceTree = "<group>"; };
 		B83319651AAE136F0003CADF /* TableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableView.m; sourceTree = "<group>"; };
 		B83319671AAE866F0003CADF /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
@@ -49,6 +51,10 @@
 		B89882FA1AAE023A00E0B226 /* AutoLayoutExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutExampleTests.m; sourceTree = "<group>"; };
 		B8C012281AAED02C00DBC176 /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
 		B8C012291AAED02C00DBC176 /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
+		B8C0122B1AAED97F00DBC176 /* ContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContainerViewController.h; sourceTree = "<group>"; };
+		B8C0122C1AAED97F00DBC176 /* ContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContainerViewController.m; sourceTree = "<group>"; };
+		B8C0122E1AAEDC4800DBC176 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		B8C0122F1AAEDC4800DBC176 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,10 +103,14 @@
 				B8C012291AAED02C00DBC176 /* NavigationController.m */,
 				B83319671AAE866F0003CADF /* MenuViewController.h */,
 				B83319681AAE866F0003CADF /* MenuViewController.m */,
-				B83319611AAE13010003CADF /* TableViewController.h */,
-				B83319621AAE13010003CADF /* TableViewController.m */,
+				B83319611AAE13010003CADF /* ViewControllerInTableView.h */,
+				B83319621AAE13010003CADF /* ViewControllerInTableView.m */,
 				B83319641AAE136F0003CADF /* TableView.h */,
 				B83319651AAE136F0003CADF /* TableView.m */,
+				B8C0122B1AAED97F00DBC176 /* ContainerViewController.h */,
+				B8C0122C1AAED97F00DBC176 /* ContainerViewController.m */,
+				B8C0122E1AAEDC4800DBC176 /* TableViewController.h */,
+				B8C0122F1AAEDC4800DBC176 /* TableViewController.m */,
 				B89882EB1AAE023A00E0B226 /* Images.xcassets */,
 				B89882ED1AAE023A00E0B226 /* LaunchScreen.xib */,
 				B89882DE1AAE023A00E0B226 /* Supporting Files */,
@@ -236,10 +246,12 @@
 			files = (
 				B89882E41AAE023A00E0B226 /* AppDelegate.m in Sources */,
 				B83319661AAE136F0003CADF /* TableView.m in Sources */,
-				B83319631AAE13010003CADF /* TableViewController.m in Sources */,
+				B8C0122D1AAED97F00DBC176 /* ContainerViewController.m in Sources */,
+				B83319631AAE13010003CADF /* ViewControllerInTableView.m in Sources */,
 				B8C0122A1AAED02C00DBC176 /* NavigationController.m in Sources */,
 				B89882E11AAE023A00E0B226 /* main.m in Sources */,
 				B83319691AAE866F0003CADF /* MenuViewController.m in Sources */,
+				B8C012301AAEDC4800DBC176 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,6 +374,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AutoLayoutExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -372,6 +385,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AutoLayoutExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

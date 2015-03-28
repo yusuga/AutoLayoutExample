@@ -1,5 +1,5 @@
 //
-//  TableViewController.h
+//  ContainerViewController.h
 //  AutoLayoutExample
 //
 //  Created by Yu Sugawara on 2015/03/10.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TableViewController : UITableViewController
+@interface ContainerViewController : UIViewController
 
 @end

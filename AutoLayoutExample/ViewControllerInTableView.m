@@ -6,26 +6,20 @@
 //  Copyright (c) 2015年 Yu Sugawara. All rights reserved.
 //
 
-#import "TableViewController.h"
+#import "ViewControllerInTableView.h"
 
-@interface TableViewController ()
+@interface ViewControllerInTableView () <UITableViewDelegate, UITableViewDataSource>
+
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
 
 @end
 
-@implementation TableViewController
+@implementation ViewControllerInTableView
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
-    [self.tableView invalidateIntrinsicContentSize];
 }
-
-- (void)viewWillLayoutSubviews
-{
- 
-}
-
 /*
 - (void)willTransitionToTraitCollection:(UITraitCollection *)newCollection withTransitionCoordinator:(id<UIViewControllerTransitionCoordinator>)coordinator
 {
@@ -34,7 +28,6 @@
     [self.tableView invalidateIntrinsicContentSize];
 }
 */
-
 #pragma mark - Table view data source
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section

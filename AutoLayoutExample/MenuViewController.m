@@ -15,6 +15,9 @@
  *
  *  What's New in Cocoa Touchをまとめた　〜Size Class大事〜
  *  http://qiita.com/mo_to_44/items/286680c5a5ad1509f0cf
+ *
+ *  実践 Auto Layout
+ *  http://blog.jarinosuke.com/entry/auto-layout-best-practice
  */
 
 @interface MenuViewController ()
